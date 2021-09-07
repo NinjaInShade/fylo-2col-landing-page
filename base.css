@@ -19,6 +19,7 @@
   --secondary: #3da08f;
   --secondary-hover: #71dfcc;
 
+  --light-purple: #575988;
   --error-clr: #ef4877;
 
   /* Neutral */
@@ -69,9 +70,13 @@
   --footer-anchor: 1rem;
 
   /* Other */
+  --container: 1280px;
 }
 
-body {
+.container {
+  margin: 0 auto;
+  max-width: var(--container);
+  width: 100%;
 }
 
 h1 {
@@ -85,12 +90,14 @@ h2 {
 }
 
 .subheading {
+  font-family: 'Open Sans', sans-serif;
   font-size: var(--subheading);
   line-height: var(--subheading-lh);
   letter-spacing: var(--subheading-ls);
 }
 
 .body {
+  font-family: 'Open Sans', sans-serif;
   font-size: var(--body);
   line-height: var(--body-lh);
   letter-spacing: var(--body-ls);
@@ -102,6 +109,7 @@ h2 {
 }
 
 .error {
+  font-family: 'Open Sans', sans-serif;
   font-size: var(--error-txt);
   letter-spacing: var(--error-txt-ls);
 }
@@ -121,6 +129,10 @@ h2 {
   font-size: var(--testimonial-role);
   line-height: var(--testimonial-role-lh);
   letter-spacing: var(--testimonial-role-ls);
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 button {

@@ -15,6 +15,42 @@
 
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <main></main>
+    <nav class="navbar">
+      <div class="container navbar-container">
+        <a href="./index.html"> <img src="./assets/logo.svg" alt="Fylo logo" class="navbar-logo" /></a>
+        <ul class="navbar-links">
+          <li class="navbar-link"><a href="./index.html">Features</a></li>
+          <li class="navbar-link"><a href="./index.html">Team</a></li>
+          <li class="navbar-link"><a href="./index.html">Sign In</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <header class="header">
+        <div class="container header-container">
+          <section>
+            <h1 class="header-title">All your files in one secure location, accessible anywhere.</h1>
+            <p class="subheading header-subheading">
+              Fylo stores your most important files in one secure location. Access them wherever you need, share and
+              collaborate with friends, family, and co-workers.
+            </p>
+            <form class="header-form" onsubmit="submitHeaderForm(event)">
+              <div class="header-form-input-group" id="header-form">
+                <input type="text" placeholder="Enter your email..." class="header-form-input" name="Email" />
+                <p class="error hidden header-form-error">Form is valid</p>
+              </div>
+              <button class="btn btn-primary" type="submit" id="header-btn">Get Started</button>
+            </form>
+          </section>
+          <img
+            src="./assets/illustration-1.svg"
+            alt="Illustration of two people grabbings documents out of a secure looking folder."
+            class="header-img"
+          />
+        </div>
+      </header>
+    </main>
+
+    <script src="./main.js"></script>
   </body>
 </html>

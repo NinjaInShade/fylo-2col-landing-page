@@ -4,3 +4,26 @@
   border: none;
   cursor: pointer;
 }
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary);
+  font-size: var(--btn);
+  padding: 15px 60px;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.btn-primary:hover,
+.btn-prmary:focus {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--primary-hover);
+}
+
+.btn-small {
+  font-size: var(--btn-s);
+}
+
+#header-btn {
+  box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
