@@ -115,6 +115,25 @@
           />
         </div>
       </section>
+
+      <section class="subscribe">
+        <div class="container subscribe-container">
+          <div>
+            <h3 class="subscribe-title">Get early access today</h3>
+            <p class="body subscribe-description">
+              It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+              questions, our support team would be happy to help you.
+            </p>
+          </div>
+          <form class="subscribe-form" onsubmit="submitSubscribeForm(event)">
+            <div class="subscribe-form-input-group" id="subscribe-form">
+              <input type="text" placeholder="email@example.com" class="subscribe-form-input" name="Email" />
+              <p class="error hidden subscribe-form-error">Form is valid</p>
+            </div>
+            <button class="btn btn-primary btn-small" type="submit" id="subscribe-btn">Get Started</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <script src="./main.js"></script>

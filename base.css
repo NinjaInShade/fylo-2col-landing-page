@@ -88,6 +88,11 @@ h2 {
   line-height: var(--h2-lh);
 }
 
+h3 {
+  font-size: var(--h3);
+  line-height: var(--h3-lh);
+}
+
 .subheading {
   font-family: 'Open Sans', sans-serif;
   font-size: var(--subheading);
