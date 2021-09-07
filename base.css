@@ -42,7 +42,6 @@
 
   --body: 1rem;
   --body-lh: 24px;
-  --body-ls: 0.5px;
 
   --contact: 1rem;
   --contact-lh: 24px;
@@ -100,7 +99,6 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: var(--body);
   line-height: var(--body-lh);
-  letter-spacing: var(--body-ls);
 }
 
 .contact {
@@ -115,17 +113,22 @@ h2 {
 }
 
 .testimonial {
+  font-family: 'Open Sans', sans-serif;
   font-size: var(--testimonial);
   line-height: var(--testimonial-lh);
   letter-spacing: var(--testimonial-ls);
 }
 
 .testimonial-name {
+  font-family: 'Open Sans', sans-serif;
   font-size: var(--testimonial-name);
   letter-spacing: var(--testimonial-name-ls);
+  color: var(--black);
+  font-weight: 700;
 }
 
 .testimonial-role {
+  font-family: 'Open Sans', sans-serif;
   font-size: var(--testimonial-role);
   line-height: var(--testimonial-role-lh);
   letter-spacing: var(--testimonial-role-ls);
@@ -159,7 +162,6 @@ button {
 
     --body: 0.875rem;
     --body-lh: 21px;
-    --body-ls: 0;
 
     --testimonial: 0.625rem;
     --testimonial-lh: 18px;
