@@ -87,6 +87,26 @@
   margin-top: 5px;
 }
 
+@media (max-width: 1125px) {
+  .header-container {
+    flex-direction: column-reverse;
+  }
+
+  .header-title,
+  .header-subheading {
+    text-align: center;
+  }
+
+  .header-main {
+    max-width: 750px;
+    width: 100%;
+  }
+
+  .header-img {
+    margin: 0 0 40px 0;
+  }
+}
+
 @media (max-width: 500px) {
   .navbar {
     padding: 24px 24px 98px 24px;
@@ -102,5 +122,22 @@
 
   .header {
     padding-bottom: 90px;
+  }
+
+  .header-subheading {
+    margin: 24px 0 32px 0;
+  }
+
+  .header-form {
+    flex-direction: column;
+  }
+
+  .header-form-input-group {
+    width: 100%;
+    margin: 0 0 6px 0;
+  }
+
+  #header-btn {
+    width: 100%;
   }
 }
