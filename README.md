@@ -24,13 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Desktop_active_solution.png)
+![](./screenshots/Mobile_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-card-TFXa8ZDRV) -->
-<!-- - Live Site URL: (https://lm-order-summary-component.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-2-col-landing-page-with-form-validation-Ud4SbT9kd)
+- Live Site URL: (https://lm-fylo-2col-landing-page.netlify.app/)
 
 ## My process
 
@@ -42,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+I practiced organising my font styles/classes heavily, since my last project was a slight trouble.
 
 ## Author
 
