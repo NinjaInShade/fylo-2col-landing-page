@@ -246,6 +246,103 @@
   color: var(--gray);
 }
 
+.footer {
+  background-color: var(--black);
+  padding: 92px 24px 86px 24px;
+}
+
+.footer-logo {
+  margin-bottom: 52px;
+  max-width: 108px;
+  width: 100%;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.footer-contacts li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-contact a {
+  color: #fff;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-links ul:first-child {
+  margin-right: 80px;
+}
+
+.footer-link:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-link a {
+  color: #fff;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--footer-anchor);
+  min-width: 79px;
+}
+
+.footer-link a:hover {
+  color: var(--primary-hover);
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social:not(:last-child) {
+  margin-right: 12px;
+}
+
+.footer-social a {
+  position: relative;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.footer-social svg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.footer-social a:hover {
+  transition: all 0.2s ease-in-out;
+  border: 1px solid var(--primary-hover);
+}
+
+.footer-social a:hover svg {
+  transition: all 0.2s ease-in-out;
+  stroke: var(--primary-hover);
+}
+
 @media (max-width: 1125px) {
   .header-container {
     flex-direction: column-reverse;
@@ -304,6 +401,38 @@
 
   #subscribe-btn {
     width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-main {
+    flex-direction: column;
+    gap: unset;
+  }
+
+  .footer-socials {
+    align-self: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    margin: 55px 0;
+  }
+
+  .footer-links ul:first-child {
+    margin: 0 0 48px 0;
+  }
+
+  .footer-contacts {
+    margin-top: 16px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer {
+    padding: 64px 24px 42px 24px;
   }
 }
 
